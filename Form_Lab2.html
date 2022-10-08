@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration from</h1>
+    <form>
+        <table align="center">
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td><input type="text" required placeholder="Enter name"></td>
+            </tr>
+            <tr>
+                <td>Division</td>
+                <td>:</td>
+                <td>
+                    <select required>
+                        <option selected>Select Division</option>
+                        <option>CSE-1A</option>
+                        <option>CSE-1B</option>
+                        <option>CSE-1C</option>
+                        <option>CSE-1D</option>
+                        <option>CSE-1H</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Lab Batch</td>
+                <td>:</td>
+                <td>
+                    <select required>
+                        <option selected>Select batch</option>
+                        <option>D1</option>
+                        <option>D2</option>
+                        <option>D3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Roll No.</td>
+                <td>:</td>
+                <td>
+                    <input type="number"
+                     pattern="[0-9]{3}" 
+                     title="Plaese enter roll no. in three digits"
+                     placeholder="Enter yor roll no.">
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="2" cols="15" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile no.</td>
+                <td>:</td>
+                <td>
+                    <input type="text" pattern="[6-9][0-9]{9}" required placeholder="Enter your mobile no.">
+                </td>
+            </tr>
+            <tr>
+                <td>Emali Id</td>
+                <td>:</td>
+                <td>
+                    <input type="email" required placeholder="Enter your Email-id">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox">Sports<br>
+                    <input type="checkbox">Music<br>
+                    <input type="checkbox">Reading
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option selected>Select city</option>
+                        <option>Rajkot</option>
+                        <option>Ahemdabad</option>
+                        <option>Surat</option>
+                        <option>Bhavnagar</option>
+                        <option>Jamnagar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option>Select State</option>
+                        <option>Gujrat</option>
+                        <option>Rajasthan</option>
+                        <option>Maharashtra</option>
+                        <option>Madhya Pradesh</option>
+                        <option>karnatak</option>
+                    </select>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td colspan="3" align="center"><input type="submit">
+                <input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
