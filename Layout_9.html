@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: #F2F5F2;
+            width: 100%;
+            height: 20vh;
+            font-size: 20px;
+            padding-left: 30px;
+            padding-top:15px ;
+        }
+        .header span{
+            font: 40px;
+        }
+        .content{
+            width: 100%;
+            height: 70vh;
+        }
+        .footer{
+            background-color: #938F6F;
+            width: 100%;
+            height: 10vh;
+            font-size: 15px;
+            padding-left: 550px;
+            padding-top: 20px;
+        }
+        .maincontent{
+            padding-left: 10px;
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+        .sidebar{
+            background-color:rgba(246,241,225,255);
+            width: 20%;
+            height: 90%;
+            border: 1px solid black;
+            float: left;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .sidebar span{
+            padding-left: 5px;
+        }
+        .box{
+            background-color: #F2F5F2;
+            width: 100%;
+            height: 15%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <span><b>header</b></span><br>
+        fluid one-column layout(basic)
+    </div>
+    <div class="content">
+        <div class="maincontent">
+            <span><b>centerColumn</b></span>
+            <p>Augur et fulgente decours arcu phoebus acceptusque novem Camenis,qui salutari levat arte fessos corporis artus, si Palatinas videt aeques aras remque Romanam Latiumque felix alterum in lustrum mellusque semper prorogat aevom , quaeque Aventinum tenet algidmumque , quindecim Diana preces virorum curat et votis purerorum amics adplicat auris.</p>
+            <span><b>Header 2</b></span><br>
+            Link Item
+            <ul>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item
+                    <ul>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="box">
+                <span>blockquote</span>
+                <p>Augur et fulgente decours arcu phoebus acceptusque novem Camenis,qui salutari levat arte fessos corporis artus.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <b>right-column</b><br>
+            <span>Home</span><br><span>Gallery</span><br><span>Contact</span>
+            <p>Augur et fulgente decours arcu phoebus acceptusque novem Camenis,qui salutari levat arte fessos corporis artus, si Palatinas videt aeques aras remque Romanam Latiumque felix alterum in lustrum mellusque semper prorogat aevom , quaeque Aventinum tenet algidmumque , quindecim Diana preces virorum curat et votis purerorum amics adplicat auris.</p>
+            <span>XHTML<br><span>CSS</span><br><span>WCAG</span><br><span>CSS Tinderbox</span>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; - componay Name
+    </div>
+</body>
+</html>
